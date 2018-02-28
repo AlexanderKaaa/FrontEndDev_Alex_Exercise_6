@@ -1,0 +1,83 @@
+body{
+	background-color:#e9e9e9;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+.main-content{
+	backgrond-color:#ffffff;
+	margin: 20px auto 20px auto;
+	width:960px;
+	
+}
+
+div.page-heading{
+	padding:20px;
+	
+}
+
+.page-heading .user-link
+{
+	color:#7db9e8;
+	float:right;
+	font-weight:bold;
+	margin-top:20px;
+	padding:10px;
+}
+
+
+.navigation{
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+padding:10px;
+
+}
+
+.navigation a{
+	color:#ffffff;
+	font-size:22px;
+	font-weight:bold;
+	margin:0px 10px 0px 10px;
+	
+}
+
+.hero{
+	background-image: url("../images/hero.jpg");
+	height:300px;
+	width:100%;
+}
+
+.services{
+margin-top:10px;}
+
+.service{
+	float:left;
+	padding:20px;
+	width:280px;
+}
+
+.service .service-image{
+	background-color:#7db9e8;
+	border-radius: 50%;
+	height:200px;
+	width:200px;
+	text-align:center;
+	margin:0px auto 0px auto;
+}
+
+.service .service-image img{
+	margin-top:30px;
+}
+
+.service h2{
+	text-align:center;
+	
+}
+
+.clear{
+	clear:both;
+}
